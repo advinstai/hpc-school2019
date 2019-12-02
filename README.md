@@ -31,5 +31,5 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 ## Materials used during the School
 
-**Foundation of Modern Computer Architecture** [Slides](day1/Foundation-of-Modern-Computer-Architecture.pdf) [Hands on](https://github.com/silviostanzani/ICTP-HPC/tree/master/Foundation-of-Modern-Computer-Architecture)
+**Foundation of Modern Computer Architecture** [[Slides]](day1/Foundation-of-Modern-Computer-Architecture.pdf) [[Hands on]](https://github.com/silviostanzani/ICTP-HPC/tree/master/Foundation-of-Modern-Computer-Architecture)
 
