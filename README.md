@@ -6,7 +6,7 @@ Participants will learn how to improve the efficiency of their research codes, a
 The programme specifically addresses the needs of scientists using, writing, or modifying HPC applications, and will not assume, require, or provide significant IT and HPC resource management skills. It will be mainly based on fundamental HPC-relevant features in widely used scientific software for high-performance computing.
 
 
-### Topics:
+#### Topics:
 
 * Computer architectures for HPC and optimization
 * Parallel programming tools (MPI & OpenMP)
@@ -15,14 +15,14 @@ The programme specifically addresses the needs of scientists using, writing, or 
 * Profiling and Debugging
 * Principles and Practices of Parallel SW Development
 
-### Organizers:
+#### Organizers:
 
 * Raphael Cobe (NCC-UNESP/AI2, Brazil)
 * Ivan Girotto (ICTP-Trieste, Italy)
 * Sergio F. Novaes (UNESP/AI2, Brazil)
 * Silvio Luiz Stanzani (NCC-UNESP/AI2, Brazil)
 
-###Lecturers:
+#### Lecturers:
 
 * Ivan Girotto (ICTP-Trieste, Italy)
 * Axel Kohlmeyer (Temple University, Philadelphia, US)
@@ -31,5 +31,6 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 ## Materials used during the School
 
+#### Day 1
 **Foundation of Modern Computer Architecture** [[Slides]](day1/Foundation-of-Modern-Computer-Architecture.pdf) [[Hands on]](https://github.com/silviostanzani/ICTP-HPC/tree/master/Foundation-of-Modern-Computer-Architecture)
 
