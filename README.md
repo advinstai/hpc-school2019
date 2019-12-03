@@ -41,4 +41,4 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **From Source Code to Executable** [[Slides]](day2/compile-link-make.pdf)
 
-**Floating Point Math and Errors** [[Slides]](day2/floating-point) [[Code]](day2/floating-point-code/)
+**Floating Point Math and Errors** [[Slides]](day2/floating-point.tar.gz) [[Code]](day2/floating-point-code/)
