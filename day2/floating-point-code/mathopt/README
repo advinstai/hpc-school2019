@@ -1,0 +1,30 @@
+IEEE Floating Point Arithmetic Optimizations
+
+files: 
+prog1.f
+prog2.f
+prog3.f
+Makefile
+
+Objectives:
+
+    * understand the impact of IEEE-compliant compilation on performance 
+
+Instructions:
+
+   1. Look at the first program prog1.f: we calculate a two-point average, requiring a division by 2.
+   2. Make prog1 and measure the runtime. ( /bin/time ./prog1 ) 
+
+   3. Now we take the second program prog2.f, calculating a three-point average, requiring a division by 3.
+   4. Make prog2a and measure the runtime.
+   5. How do the runtimes compare to prog1?
+      Does the extra addition justify the increase in CPU time?
+
+   6. Look at the prog3.f: where is the difference between prog2.f and prog3.f? 
+   7, Make it and measure runtime
+
+   8. Now make prog2b, prog2c, and prog2d and take note of the extra compiler options used. 
+   9. Measure the runtime of prog2b, prog2c, and prog2d. Compare with prog3 and prog1
+      what are your conclusions?
+
+
