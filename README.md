@@ -37,7 +37,7 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **Foundation of Modern Computer Architecture** [[Slides]](day1/Foundation-of-Modern-Computer-Architecture.pdf) [[Hands on]](https://github.com/silviostanzani/ICTP-HPC/tree/master/Foundation-of-Modern-Computer-Architecture)
 
-**Hands-on Session** [[Code]](day/hands-on)
+**Hands-on Session** [[Code]](day1/hands-on)
 
 #### Day 2
 
