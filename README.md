@@ -48,3 +48,7 @@ The programme specifically addresses the needs of scientists using, writing, or 
 **Interfacing Multiple Programming Languages** [[Slides]](day2/multi-language.pdf) [[Code]](day2/multi-language) 
 
 **Floating Point Math and Errors** [[Slides]](day2/floating-point) [[Code]](day2/floating-point-code/)
+
+#### Day 3
+
+**Introduction to OpenMP** [[Slides]](day3/introduction-to-openmp.pdf) [[Code]](day3/introduction-to-openmp/)
