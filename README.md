@@ -52,3 +52,10 @@ The programme specifically addresses the needs of scientists using, writing, or 
 #### Day 3
 
 **Introduction to OpenMP** [[Slides]](day3/introduction-to-openmp.pdf) [[Code]](day3/introduction-to-openmp/)
+
+#### Day 4
+
+
+#### Day 5
+
+**Code Optimization II** [[Slides]](day5/optimizing-apps.pdf) [[Code]](day5/lammps-opt)
