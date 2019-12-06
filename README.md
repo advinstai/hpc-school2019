@@ -51,11 +51,20 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 #### Day 3
 
+**Basic Principles of Parallelism** [[Slides]](day3/Basic_Principles_of_Parallelism.pdf)
+
 **Introduction to OpenMP** [[Slides]](day3/introduction-to-openmp.pdf) [[Code]](day3/introduction-to-openmp/)
 
 #### Day 4
 
+**Message Passing Programming with MPI** [[Slides]](day4/MPI.pdf)
+
+**MPI Exercises** [[Slides]](day4/mpi_exercises.pdf) [[Lab]](day4/lab/)
+
 
 #### Day 5
 
+**Overview of Common Strategies for Parallelization** [[Slides]](day5/IG-HPC.pdf) [[Lab]](day5/lab)
+
 **Code Optimization II** [[Slides]](day5/optimizing-apps.pdf) [[Code]](day5/lammps-opt)
+
