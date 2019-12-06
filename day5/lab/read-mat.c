@@ -12,7 +12,7 @@ void read_matrix( double * mat, int n_rows, int n_cols, FILE * fp ){
 
   for( i = 0; i < n_rows; ++i ){
         for( j = 0; j < n_cols; ++j ){
-            fscanf( fp, "%lg", &( mat[ i * n_rows + j ] )  );
+            fscanf( fp, "%lg", &( mat[ i * n_cols + j ] )  );
         }
     }
 }
