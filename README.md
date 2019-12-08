@@ -68,3 +68,7 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **Code Optimization II** [[Slides]](day5/optimizing-apps.pdf) [[Code]](day5/lammps-opt)
 
+
+#### Day 6
+
+**LJMD Project** [[Slides]](day6/ljmd-case-study.pdf) [[Code]](ljmd-project/)
