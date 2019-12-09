@@ -1,0 +1,29 @@
+<h2 id="mpi---1d-decomposition">MPI - 1D Decomposition</h2>
+<h3 id="assignments">Assignments</h3>
+<p>The parameters of the algorithm are such:</p>
+<ol type="1">
+<li><p>The grid matrix must be completely distributed, no replicating the matrix on all processors. In this exercise, only use a 1 dimensional decomposition (see <a href="#Figure_2">Figure 2</a>).</p>
+<figure>
+<img src="jacobiFigure2.jpg" alt="Figure 2" /><figcaption>Figure 2</figcaption>
+</figure></li>
+<li><p>The whole process must be parallel, that includes initialization of the grid and boundary conditions, the iterative evolution and the final dump on file of the resulting grid.</p></li>
+<li><p>Implement an efficient data exchange between processes.</p></li>
+<li><p>Handle dimensions even if not multiple of the number of processes (optional for merit).</p></li>
+</ol>
+<p>Here is a guideline for the process that parallel programmers use to do this:</p>
+<ol type="1">
+<li><p>Study the serial algorithm and see where parallelism can be exploited. Also think about how the data can be divided. Best way to do this is on a piece of paper, drawing out the layout conceptually before you even touch the code.</p></li>
+<li><p>Still on paper, figure out how this conceptualization moves to being expressed in the parallel programming language you want to use. What MPI calls do you need to use? Which processors will be doing what work? STILL ON PAPER.</p></li>
+<li><p>Now begin programming the algorithm up in MPI.</p></li>
+<li><p>Test the program on a small matrix and processor count to make sure it is doing what you expect it to do.</p></li>
+<li><p>Once you are satisfied it works, scale it up.</p></li>
+</ol>
+<p>With this in mind, go through this process to implement a 1-D decomposition of the Jacobi iteration algorithm.</p>
+<h3 id="tips">Tips</h3>
+<ul>
+<li><p>To set up the initial matrix, you will need to figure out which values go in what chunk of the distributed matrix. Think carefully about the data that each parallel chunk of work needs to have on it.</p></li>
+<li><p>Notice the value of each matrix element depends on the adjacent elements from the previous matrix. In the distributed matrix, this has consequences for the boundary elements, in that if you straightforwardly divide the matrix up by rows, elements that are needed to compute a matrix element will reside on a different processor. Think carefully about how to allocate the piece of the matrix on the current processor, and what communication needs to be performed before computing the matrix elements. <a href="#Figure_2">Figure 2</a>. is an illustration of one communication patter that can be used.</p></li>
+<li><p>It is requested to write a function that will print the distributed matrix, so that you have the ability to check to see if things are going the way you want.</p></li>
+<li><p>To perform a data exchange with a “dummy” process you can use <a href="http://mpi-forum.org/docs/mpi-1.1/mpi-11-html/node53.html">MPI_PROC_NULL</a></p></li>
+<li><p>A reference of MPI routines can be found at: <a href="http://mpi-forum.org/docs/mpi-1.1/mpi-11-html/node182.html" class="uri">http://mpi-forum.org/docs/mpi-1.1/mpi-11-html/node182.html</a></p></li>
+</ul>
