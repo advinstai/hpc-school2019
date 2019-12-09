@@ -72,3 +72,6 @@ The programme specifically addresses the needs of scientists using, writing, or 
 #### Day 6
 
 **LJMD Project** [[Slides]](day6/ljmd-case-study.pdf) [[Code]](ljmd-project/)
+
+**Lattice-Boltzmann Code Best Practices** [[Slides]](day6/IG-LBM.pdf)
+
