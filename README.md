@@ -87,3 +87,5 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **Collaborative Software Management: The LAMMPS Project** [[Slides]](day8/lammps-management.pdf)
 
+**Task Farming for Embarrassingly Parallel Processing** [[Slides]](day8/TaskFarming.pdf) [[Code]](day8/task_farming.tar.gz)
+
