@@ -75,3 +75,15 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **Lattice-Boltzmann Code Best Practices** [[Slides]](day6/IG-LBM.pdf)
 
+
+#### Day 7
+
+**Overview of Parallel Math Libraries** [[Slides]](day7/Overview of Parallel Maths Libraries.pdf)
+
+**Introduction to Parallel I/O** [[Slides]](day7/IG-IO.pdf)
+
+
+#### Day 8
+
+**Collaborative Software Management: The LAMMPS Project** [[Slides]](day8/lammps-management.pdf)
+
