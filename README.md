@@ -89,3 +89,9 @@ The programme specifically addresses the needs of scientists using, writing, or 
 
 **Task Farming for Embarrassingly Parallel Processing** [[Slides]](day8/TaskFarming.pdf) [[Code]](day8/task_farming.tar.gz)
 
+
+#### Day 9
+
+**Overview of GPU Computing** [[Slides]](day9/ictp-GPU.pdf)
+
+**Containers in HPC** [[Slides]](day9/containers-and-hpc.pdf)
